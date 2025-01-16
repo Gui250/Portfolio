@@ -1,0 +1,17 @@
+* { 
+    margin-left: 20px
+}
+.title {
+    font-size: 44px;
+    font-weight: 700;
+    width: 506px;
+    line-height: 66px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.paragraph { 
+    font-family: 'Heebo', sans-serif;
+    width: 497px;
+    line-height: 23.5px;
+}
+

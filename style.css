@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+  --gray-100: #e2e4e9;
+  --gray-200: #c0c4ce;
+  --gray-300: #878ea1;
+  --gray-400: #292c34;
+  --gray-500: #161181D;
+  --gray-600: #0d0e11;
+}
+
+header {
+  background-image: url("./assets/Background_Intro.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+.profile-icon .icon {
+  margin-top: 120px;
+}
+
+.profile-icon .code {
+  position: relative;
+  top: 90px;
+  right: 30px;
+}
+
+.profile-info {
+  max-width: 680px;
+  margin: auto;
+}
+
+.profile-info h1 {
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: var(--gray-100);
+}
+
+.profile-info h2 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Inconsolata", sans-serif;
+  color: var(--gray-200);
+}
+
+span {
+  color: var(--red);
+}
+
+.profile-info p {
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 14px;
+  color: var(--gray-300);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+.skills .tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--gray-400);
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.skills .tag span {
+  color: var(--gray-200);
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-container .arrow {
+  margin-top: 94px;
+}

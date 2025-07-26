@@ -170,7 +170,7 @@ main {
   color: var(--gray-200);
 }
 
-section {
+.painel {
   background-color: var(--gray-600);
 }
 
@@ -208,4 +208,70 @@ section {
 
 .grid-image img {
   margin-bottom: 20px;
+}
+.contact {
+  color: var(--purple);
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  background-image: url("./assets/Background_Contacts.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.title-formulario {
+  color: var(--gray-100);
+  font-family: "Asap";
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.descricao {
+  color: var(--gray-200);
+  font-family: "Maven Pro", sans-serif;
+  margin-top: 8px;
+}
+
+.social-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 70px;
+}
+
+.social-item {
+  background-color: var(--gray-400);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.social-description {
+  color: var(--gray-200);
+  font-family: "Maven Pro", sans-serif;
+}
+
+.text-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-item:hover {
+  transition: 0.2s all ease-in;
+  border: 1.5px solid var(--blue);
 }

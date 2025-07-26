@@ -102,4 +102,69 @@ span {
 
 .arrow-container .arrow {
   margin-top: 94px;
+  margin-bottom: 72px;
+}
+
+main {
+  background: var(--gray-400);
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+}
+
+.my-work {
+  color: var(--red);
+  font-family: "Inconsolata", sans-serif;
+  font-size: 16px;
+}
+
+.title {
+  color: var(--gray-100);
+  font-family: "Asap", sans-serif;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 56px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1040px;
+  margin: auto;
+  place-content: center;
+  gap: 24px;
+}
+
+.card-description {
+  margin-top: 24px;
+}
+
+.card-description p {
+  margin-top: 8px;
+}
+
+.item {
+  max-width: 330px;
+  padding: 12px;
+  background-color: #4a4e59a6;
+  border-radius: 12px;
+}
+
+.item h2,
+.item p {
+  font-family: "Asap", sans-serif;
+}
+
+.item h2 {
+  font-size: 16px;
+  color: var(--gray-100);
+}
+
+.item p {
+  font-size: 16px;
+  color: var(--gray-200);
 }
